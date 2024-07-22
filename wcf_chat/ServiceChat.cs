@@ -24,7 +24,6 @@ namespace wcf_chat
                 operationContext = OperationContext.Current
             };
             nextId++;
-
             SendMsg(": " + user.Name + " подключился к чату!", 0);
             users.Add(user);
             return user.ID;
