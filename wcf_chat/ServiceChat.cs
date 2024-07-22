@@ -17,7 +17,6 @@ namespace wcf_chat
 
         public int Connect(string name)
         {
-
             ServerUser user = new ServerUser()
             {
                 ID = nextId,
