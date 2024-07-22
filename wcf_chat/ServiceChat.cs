@@ -28,7 +28,6 @@ namespace wcf_chat
             users.Add(user);
             return user.ID;
         }
-
         public void Disconnect(int id)
         {
             var user = users.FirstOrDefault(i => i.ID == id);
