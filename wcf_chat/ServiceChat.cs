@@ -8,7 +8,7 @@ using System.Text;
 
 namespace wcf_chat
 {
-  
+
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
     public class ServiceChat : IServiceChat
     {
@@ -17,15 +17,16 @@ namespace wcf_chat
 
         public int Connect(string name)
         {
-            
-            ServerUser user = new ServerUser() {
+
+            ServerUser user = new ServerUser()
+            {
                 ID = nextId,
                 Name = name,
                 operationContext = OperationContext.Current
             };
             nextId++;
 
-            SendMsg(": "+user.Name+" подключился к чату!",0);
+            SendMsg(": " + user.Name + " подключился к чату!", 0);
             users.Add(user);
             return user.ID;
         }
@@ -33,10 +34,10 @@ namespace wcf_chat
         public void Disconnect(int id)
         {
             var user = users.FirstOrDefault(i => i.ID == id);
-            if (user!=null)
+            if (user != null)
             {
                 users.Remove(user);
-                SendMsg(": "+user.Name + " покинул чат!",0);
+                SendMsg(": " + user.Name + " покинул чат!", 0);
             }
         }
 
@@ -49,7 +50,7 @@ namespace wcf_chat
                 var user = users.FirstOrDefault(i => i.ID == id);
                 if (user != null)
                 {
-                    answer += ": " + user.Name+" ";
+                    answer += ": " + user.Name + " ";
                 }
                 answer += msg;
                 item.operationContext.GetCallbackChannel<IServerChatCallback>().MsgCallback(answer);
@@ -57,4 +58,3 @@ namespace wcf_chat
         }
     }
 }
-
