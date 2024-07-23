@@ -65,7 +65,6 @@ namespace ChatClient
             {
                 ConnectUser();
             }
-
         }
 
         public void MsgCallback(string msg)
