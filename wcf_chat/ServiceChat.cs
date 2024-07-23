@@ -35,7 +35,6 @@ namespace wcf_chat
                 SendMsg(": " + user.Name + " покинул чат!", 0);
             }
         }
-
         public void SendMsg(string msg, int id)
         {
             foreach (var item in users)
