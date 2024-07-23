@@ -43,7 +43,6 @@ namespace ChatClient
                 isConnected = true;
             }
         }
-
         void DisconnectUser()
         {
             if (isConnected)
