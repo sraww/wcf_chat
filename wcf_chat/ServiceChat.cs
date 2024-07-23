@@ -8,13 +8,11 @@ using System.Text;
 
 namespace wcf_chat
 {
-
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
     public class ServiceChat : IServiceChat
     {
         List<ServerUser> users = new List<ServerUser>();
         int nextId = 1;
-
         public int Connect(string name)
         {
             ServerUser user = new ServerUser()
