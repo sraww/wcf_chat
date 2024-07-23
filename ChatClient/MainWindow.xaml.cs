@@ -30,9 +30,8 @@ namespace ChatClient
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            
+           
         }
-
         void ConnectUser()
         {
             if (!isConnected)
