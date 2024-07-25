@@ -13,6 +13,5 @@ namespace ChatClient
     /// </summary>
     public partial class App : Application
     {
-
     }
 }
