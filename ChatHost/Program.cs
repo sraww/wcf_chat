@@ -16,7 +16,6 @@ namespace ChatHost
                 host.Open();
                 Console.WriteLine("Хост стартовал!");
                 Console.ReadLine();
-
             }
         }
     }
