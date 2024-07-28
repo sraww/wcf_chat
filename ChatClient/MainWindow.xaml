@@ -13,3 +13,4 @@
         <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="90" Margin="10,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="498" KeyDown="tbMessage_KeyDown"/>
     </Grid>
 </Window>
+    
