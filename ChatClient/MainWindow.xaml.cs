@@ -55,6 +55,7 @@ namespace ChatClient
             }
 
         }
+        //Подключение отключение пользователя
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (isConnected)
