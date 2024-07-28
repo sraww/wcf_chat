@@ -44,6 +44,7 @@ namespace ChatClient
                 isConnected = true;
             }
         }
+        //Логика отключения юзера
         void DisconnectUser()
         {
             if (isConnected)
