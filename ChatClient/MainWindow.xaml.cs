@@ -30,7 +30,7 @@ namespace ChatClient
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-           
+
         }
         void ConnectUser()
         {
@@ -70,7 +70,7 @@ namespace ChatClient
         public void MsgCallback(string msg)
         {
             lbChat.Items.Add(msg);
-            lbChat.ScrollIntoView(lbChat.Items[lbChat.Items.Count-1]);
+            lbChat.ScrollIntoView(lbChat.Items[lbChat.Items.Count - 1]);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -82,13 +82,12 @@ namespace ChatClient
         {
             if (e.Key == Key.Enter)
             {
-                if (client!=null)
+                if (client != null)
                 {
                     client.SendMsg(tbMessage.Text, ID);
                     tbMessage.Text = string.Empty;
-                }               
+                }
             }
         }
     }
 }
-
