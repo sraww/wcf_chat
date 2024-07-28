@@ -32,6 +32,7 @@ namespace ChatClient
         {
 
         }
+        //Логика подключения юзера
         void ConnectUser()
         {
             if (!isConnected)
