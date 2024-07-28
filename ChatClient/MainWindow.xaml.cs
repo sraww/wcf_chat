@@ -75,7 +75,7 @@ namespace ChatClient
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            DisconnectUser();// Отключение пользователя
+            DisconnectUser();            // Отключение пользователя
         }
 
         private void tbMessage_KeyDown(object sender, KeyEventArgs e)
