@@ -30,7 +30,8 @@ namespace ChatClient
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //Загрузка формы но её нет)))) 
+            //Загрузка формы но её нет))))
+            //PS  все подгружается через main
         }
         //Логика подключения юзера
         void ConnectUser()
