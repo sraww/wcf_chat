@@ -81,7 +81,6 @@ namespace ChatClient
             DisconnectUser(); // Отключение пользователя
         }
 
-
         private void tbMessage_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
