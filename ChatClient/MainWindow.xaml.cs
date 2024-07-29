@@ -74,7 +74,6 @@ namespace ChatClient
             lbChat.Items.Add(msg);
             lbChat.ScrollIntoView(lbChat.Items[lbChat.Items.Count - 1]);
         }
-
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             DisconnectUser(); // Отключение пользователя
