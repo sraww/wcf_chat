@@ -11,8 +11,7 @@
 namespace ChatClient.Properties {
     using System;
     
-    
-    /// <summary>
+        /// <summary>
     ///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
     /// </summary>
     // Этот класс создан автоматически классом StronglyTypedResourceBuilder
