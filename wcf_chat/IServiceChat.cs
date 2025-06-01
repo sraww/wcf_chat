@@ -24,3 +24,4 @@ namespace wcf_chat
         void MsgCallback(string msg);
     }
 }
+
