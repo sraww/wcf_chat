@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
 namespace ChatClient.Properties {
     using System;
     
