@@ -88,6 +88,7 @@ namespace ChatClient
                     tbMessage.Text = string.Empty;
                 }
             }
+        
         }
     }
 }
