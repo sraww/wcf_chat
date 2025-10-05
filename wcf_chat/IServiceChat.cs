@@ -16,6 +16,7 @@ namespace wcf_chat
         [OperationContract]
         void Disconnect(int id);
         [OperationContract(IsOneWay = true)]
+        
         void SendMsg(string msg, int id);
     }
     public interface IServerChatCallback
