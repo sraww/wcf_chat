@@ -9,8 +9,7 @@
 //------------------------------------------------------------------------------
 
 namespace ChatClient.ServiceChat {
-   
-    
+       
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceChat.IServiceChat", CallbackContract=typeof(ChatClient.ServiceChat.IServiceChatCallback))]
     public interface IServiceChat {
