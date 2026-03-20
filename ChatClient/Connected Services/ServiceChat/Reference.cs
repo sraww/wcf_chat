@@ -8,7 +8,6 @@
 //     повторной генерации кода.
 // </auto-generated>
 //------------------------------------------------------------------------------
-
 namespace ChatClient.ServiceChat {
        
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
